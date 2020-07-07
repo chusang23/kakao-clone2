@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Transformations</title>
     <style>
         .box{
+            width: 500px;
+            height: 500px;
             background-color: red;
-            font-size: 40px;
+            transition: transform .5s ease-in-out;
         }
-        .box:active{
-            background-color: pink;
-        }
-        .box:focus{
-            background-color: blue;
+        .box:hover{
+            transform: rotate(3turn) scale(.5, .5);
         }
     </style>
 </head>
 <body>
-    <textarea class="box">wow</textarea>
+    <div class="box"></div>
 </body>
 </html>
