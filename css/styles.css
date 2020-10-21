@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-
 @import "reset.css";
 @import "variables.css";
-
-/* Components */
 @import "components/status-bar.css";
-
-    #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    transition: border-color .3s ease-in-out;
-}
+@import "screens/login.css";
 
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
